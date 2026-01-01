@@ -38,8 +38,17 @@ Answer:
 
 ```
 
-## **Project Assignment: "The Underwriter's Report"**
+# **Level Up: The Insurance Auditor Project**
 
-**Task:** Create a report using a **CTE** that lists the top 3 clients (by total claim\_amt) in each city.
+Scenario:  
+You are the Lead Data Analyst for "SafeDrive Insurance". The CEO suspects that certain car types in specific cities are disproportionately expensive.  
+Your Task:  
+Create a comprehensive SQL report that answers the following in a single script (using CTEs):
 
-* **Requirements:** Must use at least one Join, one Window Function (RANK), and one CTE.
+1. **Market Comparison:** For every claim, show the claim\_amt alongside the **average claim amount for that specific car\_type**.  
+2. **Risk Ranking:** Within each state, rank the clients by their total claim amounts.  
+3. **Efficiency:** Only show the **top 2** highest-claiming clients per state.  
+4. **Final Output:** The table should include: Client Name, State, Car Type, Total Claimed, State Rank.
+
+Submission:  
+A single .sql file with comments explaining your logic.
